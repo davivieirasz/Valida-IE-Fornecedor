@@ -16,9 +16,9 @@ A regra tem como objetivo validar a **Inscrição Estadual (IE) de fornecedores*
 
 ## 📌 Exemplo de Validação
 - **Fornecedor sem IE informada** → o sistema gera o log:
-  ```
-  ATENÇÃO! É necessário informar a I.E do fornecedor.
-  ```
+
+> **ATENÇÃO! É necessário informar a I.E do fornecedor.**
+
   E o processo é interrompido.
 - **Fornecedor com IE preenchida** → o processo segue normalmente.
 
