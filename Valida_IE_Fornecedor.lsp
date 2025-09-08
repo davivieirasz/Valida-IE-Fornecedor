@@ -6,5 +6,5 @@
 Se(E095FOR.InsEst = " ")
   {
     GeraLog ("ATENÇÃO! É necessário informar a I.E do fornecedor.");
-    Cancel(1);
+    Cancel;
   };
