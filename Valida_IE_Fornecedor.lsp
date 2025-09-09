@@ -3,8 +3,19 @@
 @---Desenvolvido por Davi Vieira - 28/08/2025---@ 
 @===============================================@
 
-Se(E095FOR.InsEst = " ")
+Definir Alfa aInsEst;
+Definir Alfa aMensagem;
+Definir Alfa aCodFor;
+Definir Numero nCodFor;
+
+nCodFor = E095FOR.CodFor;
+aInsEst = E095FOR.InsEst;
+
+IntParaAlfa(nCodFor, aCodFor);
+aMensagem = "ATENÇÃO! É Necessário Informar a I.E do Fornecedor " + aCodFor;
+
+Se(aInsEst = " ")
   {
-    GeraLog ("ATENÇÃO! É necessário informar a I.E do fornecedor.");
+    GeraLog (aMensagem);
     Cancel;
   };
